@@ -1,4 +1,4 @@
-package testAccount;
+package testaccount;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,8 +9,10 @@ import account.Account;
 public class TestAccount {
 	
 	
+	
 	@Test
 	public void testPeople(){
+
 		Account test = new Account("Anderson","Doe", 2);
 		
 		test.firstName = "Kris";
