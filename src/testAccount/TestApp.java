@@ -1,4 +1,4 @@
-package testAccount;
+package testaccount;
 
 import static org.junit.Assert.assertEquals;
 

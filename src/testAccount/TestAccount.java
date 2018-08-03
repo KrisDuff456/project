@@ -1,4 +1,4 @@
-package testAccount;
+package testaccount;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,9 +8,11 @@ import account.Account;
 
 public class TestAccount {
 	
+	 
 	
 	@Test
 	public void testPeople(){
+		
 		Account test = new Account("Anderson","Doe", 2);
 		
 		test.firstName = "Kris";
@@ -21,6 +23,6 @@ public class TestAccount {
 		assertEquals("Did not find last name",test.getNameL(), "Duff");
 		assertEquals("Did not find account number",test.getAccountN(),2);
 		
-	}
+	} 
 
 }
