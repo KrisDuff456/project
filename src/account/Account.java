@@ -2,9 +2,9 @@ package account;
 
 public class Account {
 
-	public String firstName;
-	public String lastName;
-	public int accountNumber;
+	private String firstName;
+	private String lastName;
+	private int accountNumber;
 	
 	public Account(String nameF,String nameL,int accountN) {
 		this.firstName = nameF; 
