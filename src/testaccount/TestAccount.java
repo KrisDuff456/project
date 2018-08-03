@@ -23,6 +23,6 @@ public class TestAccount {
 		assertEquals("Did not find last name",test.getNameL(), "Duff");
 		assertEquals("Did not find account number",test.getAccountN(),2);
 		
-	}
+	} 
 
 }

@@ -39,18 +39,15 @@ public class TestService {
 		
 		assertNotNull("Is Null",service.mapToJson());
 	}
+	
 	@SuppressWarnings("unlikely-arg-type")
 	@Test
 	public void testAllAccounts(){
 		Service s = new Service();
 		Account a = new Account("Kris", "duff", 1);
 		s.getAccount(a);
-		
-		HashMap<Integer, Account> people = new HashMap<Integer, Account>();
-		people.put(1, new Account("kris","Duff",2));
-		people.put(2, new Account("john","Smith",3));
-		
-		assertEquals("Did not get account name",a.getNameF().equals(s.name("Kris")),"Kris");
+	
+		assertEquals("Did not get account name",a.getNameF().equals(s.name("Kris")),1);
 	
 	}
 

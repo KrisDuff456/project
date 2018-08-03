@@ -8,7 +8,7 @@ public class Main {
 		Account account = new Account("Kris", "Duff", 3);
 		service.getAccount(account);
 		System.out.println(service.name("Kris"));
-		
+		 
 	} 
 
 }
